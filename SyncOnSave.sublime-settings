@@ -1,0 +1,20 @@
+{
+    "sync_directories": [
+        {
+        	//Flag that indicates if the path must be synced or not
+            "sync_on_save": false,
+        	//Path to be synchronized
+            "local": "",
+            //Destination path where the plugin copies the saved file
+            //with its relative path respect to the local path
+            "mirror": "",
+            //Regular expresion for copy only the files that match the pattern
+            "include_pattern": "",
+            //Regular expresion for exclude files or paths
+            //eg:
+            //.*(\\.sublime-settings|\\.py)$
+            //.*(/old/|/bak/).*
+            "exclude_pattern": ""
+        }
+    ]
+}
